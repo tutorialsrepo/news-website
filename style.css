@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #011e29;
+  color: white;
+}
+
+header div {
+  display: flex;
+  align-items: center;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 10px;
+}
+
+.headerTitle span {
+  font-size: 15px;
+  background-color: rgb(23, 131, 225);
+  border-radius: 30px;
+  padding: 5px;
+}
+.headerTitle {
+  font-size: 30px;
+}
+
+.nav-div nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(255, 255, 255);
+  border-bottom: 1px solid rgba(10, 20, 50, 0.2);
+  padding: 10px;
+  font-size: 18px;
+}
+.nav-div nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.newsContent {
+  margin: 0px 10%;
+}
+
+.trendingTitle p {
+  margin: 10px;
+  background-color: rgb(208, 201, 201);
+  padding: 5px 5px 5px 0px;
+}
+.latestNews {
+  background-color: red;
+  padding: 5px;
+  width: 220px;
+}
+.latestNewsInfo {
+}
+
+.newsTag {
+  background-color: gray;
+  padding: 2px;
+  width: 80px;
+  text-align: center;
+  color: white;
+  border-radius: 20px;
+}
+
+.home {
+  width: 50%;
+}
+.home2 {
+  width: 40%;
+}
+.firstNews {
+  display: flex;
+  justify-content: space-between;
+}
+
+.borderBox {
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+}
+
+.hrHeading {
+  width: 90%;
+  border: 3px solid rgb(233, 52, 52);
+  margin-bottom: 10px;
+}
+
+.latestNewsDiv {
+  width: 100%;
+  min-height: 300px;
+}
+
+.latestNewsLists {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.latestNewsList {
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+  width: 300px;
+}
+
+.padding-5 {
+  padding: 10px;
+}
+
+.indiaNews {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.indiaNewsLists {
+  width: 450px;
+  min-height: 200px;
+}
+
+.part1 {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.lifestylelists {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+footer {
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  background-color: gray;
+}
